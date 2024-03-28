@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PEPERO</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://use.fontawesome.com/releases/v6.5.1/css/all.css" rel="stylesheet">
+
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Noto+Sans+KR:wght@100..900&display=swap');      
+    * {
+        font-family: "Noto Sans KR", sans-serif;
+      }
+
+      body {
+        background-color: #ECECEC;
+      }
+    
+      .title {
+        margin-top: 100px;
+        text-align: center;
+        
+      }
+
+      .login {
+        width: 400px;
+        height: 300px;
+
+        background-color: gray;
+        border-radius: 20px;
+
+        margin: 20px auto 0px auto;
+        padding: 50px 40px 30px 40px;
+      }
+
+      .threebtn {
+        text-align: center;
+      }
+
+      .otherbtn {
+        width: 400px;
+        margin: 20px auto 0px auto;
+      }
+
+    
+    
+    </style>
+  </head>
+  <body>
+      <div class="title">
+        <h1>PEPERO</h1>
+      </div>
+      <div class="login">
+            <div class="mb-3">
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="아이디">
+              </div>
+          <div class="col-auto">
+            <label for="inputPassword2" class="visually-hidden">Password</label>
+            <input type="password" class="form-control" id="inputPassword2" placeholder="비밀번호">
+          </div>
+          
+          <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+            <label class="form-check-label" for="flexSwitchCheckDefault">로그인 상태 유지</label>
+          </div>
+
+          <p>
+          <div class="d-grid gap-2">
+            <button class="btn btn-dark" type="button">로그인</button>
+          </div></p>
+
+          <div class="threebtn">
+          <div class="btn-group btn-group" role="group" aria-label="Large button group">
+            <button type="button" class="btn btn-outline-dark" >회원가입</button>
+            <button type="button" class="btn btn-outline-dark">아이디찾기</button>
+            <button type="button" class="btn btn-outline-dark">비밀번호찾기</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="otherbtn">
+        <div class="d-grid gap-2">
+            <button class="btn" type="button" style="background-color: #FAE64D;">
+                <i class="fa-solid fa-comment"></i>&nbsp;&nbsp;&nbsp;카카오톡으로 로그인</button>
+            
+          
+        </div>
+          <br>
+          <div class="d-grid gap-2">
+            <button class="btn" type="button" style="background-color: #5AC467;">
+                <i class="fa-solid fa-n"></i>&nbsp;&nbsp;&nbsp;네이버로 로그인</button>
+          </div>
+          <br>
+          <div class="d-grid gap-2">
+            <button class="btn btn-light" type="button">
+                <i class="fa-brands fa-google"></i>&nbsp;&nbsp;&nbsp;구글로 로그인</button>
+          </div>
+      </div>      
+    </div>
+  </body>
+</html>
